@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-helpers",
+  "version": "1.0.1",
+  "description": "(not a config) helpers for making eslint configs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/dimitropoulos/eslint-config-helpers.git",
+  "author": "Dimitri Mitropoulos <dimitrimitropoulos@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "yarn build",
+    "prebuild": "tsc --build --clean",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
