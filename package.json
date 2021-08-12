@@ -6,6 +6,9 @@
   "types": "dist/index.d.ts",
   "repository": "https://github.com/dimitropoulos/eslint-config-helpers.git",
   "author": "Dimitri Mitropoulos <dimitrimitropoulos@gmail.com>",
+  "engines": {
+    "node": "^16"
+  },
   "license": "MIT",
   "scripts": {
     "prepublish": "yarn build",
