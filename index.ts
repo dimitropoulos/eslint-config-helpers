@@ -21,6 +21,7 @@ export const JAVASCRIPT_SPECIFIC = "This rule is either JavaScript specific and 
 export const TYPESCRIPT_SPECIFIC = "This rule is not compatible with TypeScript projects.";
 export const USER_DISCRETION = "This rule is one of those rare things that's better left up to the individual to decide.";
 export const DEPRECATED = 'This rule has been deprecated.';
+export const TYPESCRIPT_CONVERSION = 'This rule, ideally, should be on.  However, this project is in the middle of major work to improve TypeScript coverage and this rule is off for that reason (alone).';
 
 /**
  * Used for `@typescript-eslint` extension rules of eslint rules of the same name.
