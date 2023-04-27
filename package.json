@@ -7,7 +7,7 @@
   "repository": "https://github.com/dimitropoulos/eslint-config-helpers.git",
   "author": "Dimitri Mitropoulos <dimitrimitropoulos@gmail.com>",
   "engines": {
-    "node": "^16"
+    "node": ">=16"
   },
   "license": "MIT",
   "scripts": {
@@ -16,6 +16,6 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "typescript": "^4.3.5"
+    "typescript": "^5.0.4"
   }
 }
