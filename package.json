@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-helpers",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "(not a config) helpers for making eslint configs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
